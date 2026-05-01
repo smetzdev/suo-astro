@@ -15,15 +15,6 @@ interface Band {
 
 const bandsData = await import('../data/lineup.json');
 const bands: Band[] = bandsData.default;
-
-const getLinkLabel = (url: string): string => {
-	if (url.includes('youtube.com') || url.includes('youtu.be')) return 'Video';
-	if (url.includes('spotify.com')) return 'Spotify';
-	if (url.includes('bandcamp.com')) return 'Bandcamp';
-	if (url.includes('soundcloud.com')) return 'SoundCloud';
-	if (url.includes('dropbox.com')) return 'Dropbox';
-	return 'Website';
-};
 ---
 
 <html lang="de">
@@ -35,13 +26,13 @@ const getLinkLabel = (url: string): string => {
 		<meta name="description" content="Das Indoor-Metal-Festival in Südwest-Deutschland" />
 		<title>Schlacht um Otzenhausen 2026</title>
 	</head>
-	<body>
+	<body class="bg-gray-900">
 		<header class="aspect-video bg-gray-800 flex items-center justify-center text-center py-16">
 			<div class="max-w-5xl mx-auto px-4">
 				<h1 class="text-xl sm:text-2xl md:text-4xl">
 					<img class="w-full h-auto" src="/logo.png" alt="" />
 					<span class="sr-only">Schlacht um Otzenhausen</span>
-					<span>07.11.2026 – Hunnenringhalle Otzenhausen</span>
+					<span class="block text-gray-300">07.11.2026 – Hunnenringhalle Otzenhausen</span>
 				</h1>
 				<div class="flex justify-center mt-6 space-x-2 space-y-4 sm:space-y-0 sm:space-x-4">
 					<a
@@ -59,29 +50,31 @@ const getLinkLabel = (url: string): string => {
 			<div role="list" class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
 				{
 					bands.map((band) => (
-						<div role="listitem" class="bg-gray-800 overflow-hidden rounded-lg shadow-md flex flex-col">
-							<img
-								src={`https://via.placeholder.com/400x300?text=${encodeURIComponent(band.bandName)}`}
-								alt={band.bandName}
-								class="aspect-video object-cover object-center"
-							/>
+						<div role="listitem" class="bg-gray-800 overflow-hidden rounded-lg shadow-lg flex flex-col hover:shadow-2xl transition-shadow">
+							<div class="aspect-video bg-gray-700 overflow-hidden">
+								<img
+									src="/band.jpg"
+									alt={band.bandName}
+									class="w-full h-full object-cover object-center"
+								/>
+							</div>
 							<div class="flex flex-col items-start justify-start flex-1 p-4">
 								<header class="flex flex-col leading-normal">
-									<h2 class="text-lg font-semibold md:text-xl">{band.bandNameTitleCase}</h2>
-									<p class="text-gray-400">
+									<h2 class="text-lg font-semibold md:text-xl text-white">{band.bandNameTitleCase}</h2>
+									<p class="text-sm text-gray-400 mt-1">
 										<span class="sr-only">Genre:</span>
 										{band.genre.join(', ')}
 									</p>
 								</header>
 								{band.exampleLink && (
-									<div class="mt-4 w-full">
+									<div class="mt-auto pt-4 w-full">
 										<a
 											href={band.exampleLink}
 											target="_blank"
 											rel="noopener noreferrer"
-											class="px-3 py-2 duration-100 text-center inline-block focus-visible:ring-4 focus-visible:ring-red-400 focus-visible:outline-none active:scale-[98%] rounded-md border border-red-900 text-red-50 hover:bg-red-900/20 active:bg-red-900/30 w-full text-sm md:text-base"
+											class="px-3 py-2 duration-100 text-center inline-block focus-visible:ring-4 focus-visible:ring-red-400 focus-visible:outline-none active:scale-[98%] rounded border border-red-700 text-red-100 hover:bg-red-900 active:bg-red-800 w-full text-sm"
 										>
-											{getLinkLabel(band.exampleLink)} - Reinhören
+											Reinhören
 										</a>
 									</div>
 								)}
@@ -92,10 +85,10 @@ const getLinkLabel = (url: string): string => {
 			</div>
 		</main>
 
-		<footer class="bg-gray-800 py-8">
-			<div class="max-w-5xl mx-auto px-4 flex justify-between">
+		<footer class="bg-gray-800 py-8 border-t border-gray-700">
+			<div class="max-w-5xl mx-auto px-4 flex justify-between text-sm text-gray-400">
 				<span>© 2026 Celtic Warriors Otzenhausen e.V.</span>
-				<a href="https://cwo-ev.de/impressum/">Impressum</a>
+				<a href="https://cwo-ev.de/impressum/" class="hover:text-white">Impressum</a>
 			</div>
 		</footer>
 	</body>
