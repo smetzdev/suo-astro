@@ -6,6 +6,7 @@ interface Band {
 	bandName: string;
 	bandNameTitleCase: string;
 	bandNameSlug: string;
+	bandImage: string;
 	pdfPath: string;
 	exampleLink: string;
 	hometown: string;
@@ -53,7 +54,7 @@ const bands: Band[] = bandsData.default;
 						<div role="listitem" class="bg-gray-800 overflow-hidden rounded-lg shadow-lg flex flex-col hover:shadow-2xl transition-shadow">
 							<div class="aspect-video bg-gray-700 overflow-hidden">
 								<img
-									src="/band.jpg"
+									src={band.bandImage}
 									alt={band.bandName}
 									class="w-full h-full object-cover object-center"
 								/>
