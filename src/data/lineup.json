@@ -7,9 +7,7 @@
     "pdfPath": "pdf/mindreaper.pdf",
     "exampleLink": "https://www.youtube.com/watch?v=bYlHPPorDOQ",
     "hometown": "Wetzlar, Hessen",
-    "genre": [
-      "Death"
-    ],
+    "genre": ["Death"],
     "contactEmailAddress": "ens@mindreaper.de"
   },
   {
@@ -20,9 +18,7 @@
     "pdfPath": "pdf/evil-excess.pdf",
     "exampleLink": "https://www.dropbox.com/sh/cxefqqat7j681x7/AADTYX_R_GWBPxgxvm6Fc8ywa?dl=0",
     "hometown": "Koblenz, Rheinland-Pfalz",
-    "genre": [
-      "Speed"
-    ],
+    "genre": ["Speed"],
     "contactEmailAddress": "evilexcess@web.de"
   },
   {
@@ -33,10 +29,7 @@
     "pdfPath": "",
     "exampleLink": "https://www.youtube.com/watch?v=OqPhRMI7qLE",
     "hometown": "",
-    "genre": [
-      "Hard Rock",
-      "Heavy Metal"
-    ],
+    "genre": ["Hard Rock", "Heavy Metal"],
     "contactEmailAddress": "info@blitzerrocks.com"
   },
   {
@@ -47,24 +40,18 @@
     "pdfPath": "pdf/mellom.pdf",
     "exampleLink": "https://www.youtube.com/watch?v=wMsKd2_ccUE",
     "hometown": "Frankfurt am Main, Hessen",
-    "genre": [
-      "Black",
-      "Death"
-    ],
+    "genre": ["Black", "Death"],
     "contactEmailAddress": "info@mellom.de"
   },
   {
     "bandName": "Roadkill BBQ",
     "bandNameTitleCase": "Roadkill BBQ",
     "bandNameSlug": "roadkill-bbq",
-    "bandImage": "/bands/roadkill-bbq.jpg",
+    "bandImage": "/bands/rkillbbq.jpeg",
     "pdfPath": "pdf/roadkill-bbq.pdf",
     "exampleLink": "https://roadkill-bbq.bandcamp.com/album/live-compilation-june-25",
     "hometown": "Merzig, Saarland",
-    "genre": [
-      "Stoner",
-      "Hard Rock"
-    ],
+    "genre": ["Stoner", "Hard Rock"],
     "contactEmailAddress": "roadkillbbq.rock@gmail.com"
   },
   {
@@ -75,10 +62,7 @@
     "pdfPath": "pdf/ossarium.pdf",
     "exampleLink": "https://open.spotify.com/album/4C0hBswebTFkQGhuhq3iZD?si=yuSxtawpSzuElEXfGNuJJA",
     "hometown": "München, Bayern",
-    "genre": [
-      "Death",
-      "Doom"
-    ],
+    "genre": ["Death", "Doom"],
     "contactEmailAddress": "thomas-ossarium@web.de"
   },
   {
@@ -89,9 +73,7 @@
     "pdfPath": "pdf/endless-curse.pdf",
     "exampleLink": "https://www.youtube.com/watch?v=nXjx6QtBaVQ",
     "hometown": "Kirchberg, Baden-Württemberg",
-    "genre": [
-      "Death"
-    ],
+    "genre": ["Death"],
     "contactEmailAddress": "contact@endlesscurse.de"
   },
   {
@@ -102,10 +84,7 @@
     "pdfPath": "pdf/stigmatized.pdf",
     "exampleLink": "https://open.spotify.com/intl-de/artist/46mmS2fPFJhxLGCGKkpDTo?si=3oP5CFMyTH-kMIkSVA4SLQ&nd=1&dlsi=c529541d61ad4ae7",
     "hometown": "Koblenz, Rheinland-Pfalz",
-    "genre": [
-      "Death",
-      "Thrash"
-    ],
+    "genre": ["Death", "Thrash"],
     "contactEmailAddress": "kraestig@gmx.de"
   },
   {
@@ -116,9 +95,7 @@
     "pdfPath": "pdf/devils-hour.pdf",
     "exampleLink": "https://tr.ee/EoXrg4ps6R",
     "hometown": "Frankfurt am Main, Hessen",
-    "genre": [
-      "Black"
-    ],
+    "genre": ["Black"],
     "contactEmailAddress": "devilshourofficial@gmail.com"
   },
   {
@@ -129,9 +106,7 @@
     "pdfPath": "",
     "exampleLink": "https://www.youtube.com/watch?v=cS3bAW5lBtg",
     "hometown": "",
-    "genre": [
-      "Thrash Metal"
-    ],
+    "genre": ["Thrash Metal"],
     "contactEmailAddress": "warfield.666@gmx.de"
   },
   {
@@ -142,9 +117,7 @@
     "pdfPath": "",
     "exampleLink": "https://www.youtube.com/watch?v=aWZ4xj_qkpQ",
     "hometown": "Växjö, Sweden",
-    "genre": [
-      "Heavy Metal"
-    ],
+    "genre": ["Heavy Metal"],
     "contactEmailAddress": "ambushsweden@gmail.com"
   }
 ]
