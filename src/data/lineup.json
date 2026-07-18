@@ -22,15 +22,15 @@
     "contactEmailAddress": "evilexcess@web.de"
   },
   {
-    "bandName": "Blitzer",
-    "bandNameTitleCase": "Blitzer",
-    "bandNameSlug": "blitzer",
-    "bandImage": "/bands/blitzer.jpg",
+    "bandName": "Old Moon Madness",
+    "bandNameTitleCase": "Old Moon Madness",
+    "bandNameSlug": "old-moon-madness",
+    "bandImage": "/bands/old-moon-madness.jpg",
     "pdfPath": "",
-    "exampleLink": "https://www.youtube.com/watch?v=OqPhRMI7qLE",
-    "hometown": "",
-    "genre": ["Hard Rock", "Heavy Metal"],
-    "contactEmailAddress": "info@blitzerrocks.com"
+    "exampleLink": "https://www.youtube.com/watch?v=RHNCaKlWfkc",
+    "hometown": "Daun, Rheinland-Pfalz",
+    "genre": ["Hard Rock"],
+    "contactEmailAddress": "sharpshooter-booking@gmx.de"
   },
   {
     "bandName": "Mellom",
